@@ -1,0 +1,27 @@
+id_regra: "FRAUDE-001"
+versao: "1.0.0"
+cip_referencia: "CIP-0002"
+nome: "Conluio por Sócios em Comum no Quadro Societário"
+categoria: "Cartelização e Bidding Rings"
+criticidade: "ALTA"
+pontuacao_risco: 85
+
+fundamento_legal:
+  lei: "Lei Federal nº 14.133/2021"
+  artigos: 
+    - "Art. 14, Inciso IV (Vedações expressas a pessoas com vínculos societários em concorrência)"
+    - "Art. 9º, § 1º (Vedações ao conluio e favorecimento)"
+  jurisprudencia: "Acórdão TCU nº 2.143/2017 - Plenário (Fraude comprovada por identidade de sócios)"
+
+descricao_resumida: >
+  Identifica empresas concorrentes que disputaram o mesmo item ou lote em um processo licitatório
+  e que possuem os mesmos sócios, administradores ou procuradores registrados na base de CNPJs da Receita Federal.
+
+parametros_ajustaveis:
+  ignorar_licitantes_desclassificados_previamente: false
+  considerar_apenas_socios_administradores: false
+
+instrucoes_investigativas_para_dossie:
+  - "Verificar se as propostas financeiras foram enviadas em intervalo de minutos com valores calculados para simular disputa."
+  - "Checar se o e-mail ou telefone de cadastro no Compras.gov.br pertence à mesma contabilidade."
+  - "Avaliar o histórico de outras licitações onde essas mesmas empresas concorreram juntas."
