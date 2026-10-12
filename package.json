@@ -1,0 +1,20 @@
+{
+  "name": "noble-noether",
+  "version": "1.0.0",
+  "description": "Sistema de Auditoria Cívica & Detecção Descentralizada de Fraudes em Licitações",
+  "main": "scripts/verify_governance.js",
+  "scripts": {
+    "test": "node --test",
+    "verify:governance": "node scripts/verify_governance.js",
+    "verify:heuristics": "node scripts/verify_heuristics.js"
+  },
+  "keywords": [
+    "licitacoes",
+    "auditoria-civica",
+    "anti-fraude",
+    "quorum-criptografico",
+    "governance"
+  ],
+  "author": "Coletivo de Governança Cívica",
+  "license": "Apache-2.0"
+}

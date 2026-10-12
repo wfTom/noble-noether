@@ -1,0 +1,79 @@
+{
+  "governance_model": "Multi-Sector Cryptographic Quorum",
+  "version": "1.0.0",
+  "last_updated": "2026-09-18T22:00:00Z",
+  "quorum_policy": {
+    "min_total_signatures": 3,
+    "min_distinct_pillars": 3,
+    "require_tech_pillar": true,
+    "require_substantive_pillar": true,
+    "substantive_pillars": [
+      "jornalismo_investigativo",
+      "auditoria_e_controle_social"
+    ]
+  },
+  "pillars": {
+    "tecnologia_e_criptografia": {
+      "descricao": "Pilar de Criptografia e Infraestrutura Tecnológica",
+      "membros": [
+        {
+          "id": "tech-node-01",
+          "nome": "Tech Node Alpha",
+          "organizacao": "CivicTech Brasil",
+          "chave_publica": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGov3eEXAMPLEPUBLICKEYCIVICTECH01",
+          "status": "ativo"
+        },
+        {
+          "id": "tech-node-revoked",
+          "nome": "Tech Node Compromised",
+          "organizacao": "Ex-Member Tech",
+          "chave_publica": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGov3eREVOKEDKEYCIVICTECH99",
+          "status": "revogado"
+        }
+      ]
+    },
+    "jornalismo_investigativo": {
+      "descricao": "Pilar de Jornalismo Investigativo",
+      "membros": [
+        {
+          "id": "press-node-01",
+          "nome": "Press Node Alpha",
+          "organizacao": "Consórcio de Imprensa Investigativa",
+          "chave_publica": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGov3eEXAMPLEPUBLICKEYPRESS01",
+          "status": "ativo"
+        },
+        {
+          "id": "press-node-inactive",
+          "nome": "Press Node On Leave",
+          "organizacao": "Agência de Dados",
+          "chave_publica": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGov3eINACTIVEKEYPRESS88",
+          "status": "inativo"
+        }
+      ]
+    },
+    "pesquisa_academica": {
+      "descricao": "Pilar Acadêmico",
+      "membros": [
+        {
+          "id": "acad-node-01",
+          "nome": "Acad Node Alpha",
+          "organizacao": "Universidade de Ciências",
+          "chave_publica": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGov3eEXAMPLEPUBLICKEYACAD01",
+          "status": "ativo"
+        }
+      ]
+    },
+    "auditoria_e_controle_social": {
+      "descricao": "Pilar Auditoria",
+      "membros": [
+        {
+          "id": "audit-node-01",
+          "nome": "Audit Node Alpha",
+          "organizacao": "Observatório Social",
+          "chave_publica": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGov3eEXAMPLEPUBLICKEYAUDIT01",
+          "status": "ativo"
+        }
+      ]
+    }
+  }
+}

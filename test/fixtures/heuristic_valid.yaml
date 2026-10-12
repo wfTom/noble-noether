@@ -1,0 +1,25 @@
+id_regra: "FRAUDE-TEST-001"
+versao: "1.0.0"
+cip_referencia: "CIP-0002"
+nome: "Regra Sintética Válida de Teste"
+categoria: "Sobrepreço e Superfaturamento"
+criticidade: "ALTA"
+pontuacao_risco: 90
+
+fundamento_legal:
+  lei: "Lei Federal nº 14.133/2021"
+  artigos:
+    - "Art. 11, Inciso I"
+    - "Art. 59, Inciso III"
+  jurisprudencia: "Acórdão TCU nº 1.234/2022 - Plenário"
+
+descricao_resumida: >
+  Regra sintética para testes automatizados de conformidade com a especificação CIP-0002.
+
+parametros_ajustaveis:
+  limiar_desvio_percentual: 0.25
+  considerar_apenas_itens_homologados: true
+
+instrucoes_investigativas_para_dossie:
+  - "Conferir a planilha de custos e formação de preços da proposta vencedora."
+  - "Comparar com os preços medianos praticados pelo Painel de Preços do Governo Federal."

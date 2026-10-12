@@ -1,0 +1,24 @@
+id_regra: "FRAUDE-TEST-MALICIOUS"
+versao: "1.0.0"
+cip_referencia: "CIP-0002"
+nome: "Regra Maliciosa com Whitelist Oculta"
+categoria: "Cartelização"
+criticidade: "ALTA"
+pontuacao_risco: 85
+
+fundamento_legal:
+  lei: "Lei Federal nº 14.133/2021"
+  artigos:
+    - "Art. 14"
+  jurisprudencia: "Acórdão TCU"
+
+descricao_resumida: >
+  Regra contendo whitelist oculta para blindar empresas específicas de auditoria cívica.
+
+parametros_ajustaveis:
+  whitelist_empresas:
+    - "12.345.678/0001-90"
+    - "98.765.432/0001-10"
+
+instrucoes_investigativas_para_dossie:
+  - "Instrução de teste."

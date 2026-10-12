@@ -1,0 +1,93 @@
+{
+  "governance_model": "Multi-Sector Cryptographic Quorum",
+  "version": "1.0.0",
+  "last_updated": "2026-09-18T22:00:00Z",
+  "quorum_policy": {
+    "min_total_signatures": 3,
+    "min_distinct_pillars": 3,
+    "require_tech_pillar": true,
+    "require_substantive_pillar": true,
+    "substantive_pillars": [
+      "jornalismo_investigativo",
+      "auditoria_e_controle_social"
+    ]
+  },
+  "pillars": {
+    "tecnologia_e_criptografia": {
+      "descricao": "Pilar de Criptografia e Infraestrutura Tecnológica",
+      "membros": [
+        {
+          "id": "tech-node-01",
+          "nome": "Tech Node Alpha",
+          "organizacao": "CivicTech Brasil",
+          "chave_publica": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGov3eEXAMPLEPUBLICKEYCIVICTECH01",
+          "status": "ativo"
+        },
+        {
+          "id": "tech-node-02",
+          "nome": "Tech Node Beta",
+          "organizacao": "OpenGov Labs",
+          "chave_publica": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGov3eEXAMPLEPUBLICKEYCIVICTECH02",
+          "status": "ativo"
+        }
+      ]
+    },
+    "jornalismo_investigativo": {
+      "descricao": "Pilar de Jornalismo Investigativo e Liberdade de Imprensa",
+      "membros": [
+        {
+          "id": "press-node-01",
+          "nome": "Press Node Alpha",
+          "organizacao": "Consórcio de Imprensa Investigativa",
+          "chave_publica": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGov3eEXAMPLEPUBLICKEYPRESS01",
+          "status": "ativo"
+        },
+        {
+          "id": "press-node-02",
+          "nome": "Press Node Beta",
+          "organizacao": "Agência Pública de Notícias",
+          "chave_publica": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGov3eEXAMPLEPUBLICKEYPRESS02",
+          "status": "ativo"
+        }
+      ]
+    },
+    "pesquisa_academica": {
+      "descricao": "Pilar de Pesquisadores Acadêmicos e Cientistas de Dados",
+      "membros": [
+        {
+          "id": "acad-node-01",
+          "nome": "Acad Node Alpha",
+          "organizacao": "Universidade de Ciências Públicas",
+          "chave_publica": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGov3eEXAMPLEPUBLICKEYACAD01",
+          "status": "ativo"
+        },
+        {
+          "id": "acad-node-02",
+          "nome": "Acad Node Beta",
+          "organizacao": "Instituto Nacional de Pesquisa em IA",
+          "chave_publica": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGov3eEXAMPLEPUBLICKEYACAD02",
+          "status": "ativo"
+        }
+      ]
+    },
+    "auditoria_e_controle_social": {
+      "descricao": "Pilar de Auditores de Controle Social e Juristas Cívicos",
+      "membros": [
+        {
+          "id": "audit-node-01",
+          "nome": "Audit Node Alpha",
+          "organizacao": "Observatório Cidadão de Contas Públicas",
+          "chave_publica": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGov3eEXAMPLEPUBLICKEYAUDIT01",
+          "status": "ativo"
+        },
+        {
+          "id": "audit-node-02",
+          "nome": "Audit Node Beta",
+          "organizacao": "Instituto de Auditoria Social",
+          "chave_publica": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGov3eEXAMPLEPUBLICKEYAUDIT02",
+          "status": "ativo"
+        }
+      ]
+    }
+  }
+}
