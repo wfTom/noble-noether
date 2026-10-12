@@ -1,0 +1,17 @@
+# Dependências e Pacotes
+node_modules/
+package-lock.json
+
+# Logs e Ambientes
+*.log
+.env
+.env.*
+
+# Sistema Operacional e IDEs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Diretório de orquestração de subagentes e cache interno
+.agents/
